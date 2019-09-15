@@ -1,0 +1,6 @@
+.vscode
+*/__pychace__
+*/*/__pychace__
+*/*.pyc
+*/*/*.pyc
+pipeline/pipeline.py.tar.gz
