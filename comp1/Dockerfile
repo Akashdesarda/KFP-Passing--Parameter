@@ -5,8 +5,4 @@ RUN apt-get update && \
 
 COPY ./src /src
 
-RUN mv /src/output.txt /
-
 WORKDIR /src
-
-ENTRYPOINT [ "python", "msg.py" ]

@@ -6,10 +6,11 @@ args = vars(parser.parse_args())
 
 msg = args['msg']
 
-f = open('../output.txt', 'w')
-f.writelines(msg)
-f.close()
+print(msg)
+# f = open('../output.txt', 'w')
+# f.writelines(msg)
+# f.close()
 
-f1 = open('../output.txt', 'r')
-print(f1.read())
-f1.close()
+# f1 = open('../output.txt', 'r')
+# print(f1.read())
+# f1.close()
